@@ -20,7 +20,7 @@ def plot_freq_against_rank(most_frequent_words):
 	ranks = range(1, len(frequencies)+1)
 	plt.plot(ranks, frequencies)
 	plt.xlabel('Rank')
-	plt.ylabel('Rank')
+	plt.ylabel('Frequency')
 	plt.show()
 
 freqs = read_subtlex_file('subtlex_english')
